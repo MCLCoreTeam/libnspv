@@ -97,8 +97,12 @@ The application will try to connect to max 6 peers, send the transaction two two
 
     ./bitcoin-send-tx -d -s 5 -i 192.168.1.110:8333,127.0.0.1:8333 <txhex>
 
-How to Build
+How to Build Linux
 ----------------
+```
+sudo apt-get -y install build-essential pkg-config libc6-dev m4 autoconf libtool unzip git wget automake libevent-dev
+```
+
 
 #### Full library including CLI tool and wallet database
 ```
